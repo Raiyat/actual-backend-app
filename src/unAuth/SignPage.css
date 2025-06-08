@@ -1,0 +1,109 @@
+/* SignUp.css */
+
+.sign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+  }
+  
+  .sign-card {
+    background-color: #2a2a2a;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .sign-header {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sign-input {
+    padding: 12px;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .sign-input::placeholder {
+    color: #888888;
+  }
+  
+  .sign-button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sign-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  .sign-line {
+    flex: 1;
+    height: 1px;
+    background-color: #3a3a3a;
+  }
+  
+  .sign-or {
+    color: #888888;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  
+  .sign-google-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sign-google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-google-button:hover {
+    background-color: #357abd;
+  }
+  
+  .sign-google-icon {
+    font-size: 18px;
+  }
+  
